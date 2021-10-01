@@ -13,3 +13,11 @@ header>div img {
         height: 1rem;
     }
 }
+
+img.chevron {
+    width: 0.5rem
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
