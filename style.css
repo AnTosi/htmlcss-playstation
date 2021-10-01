@@ -1,0 +1,15 @@
+header>div img {
+    height: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+    header>div img {
+        height: 0.85rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header>div img {
+        height: 1rem;
+    }
+}
