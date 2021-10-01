@@ -1,20 +1,46 @@
-header>div img {
-    height: 0.75rem;
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
+header .sony_logo img {
+    height: 12px;
+}
+
+header nav img {
+    height: 25px;
+}
+
+@media screen and (min-width: 576px) {
+    header nav img {
+        height: 30px;
+    }
+    header .sony_logo img {
+        height: 15px;
+    }
+}
+
+
 @media screen and (min-width: 768px) {
-    header>div img {
-        height: 0.85rem;
+    header nav img {
+        height: 40px;
+    }
+    header .sony_logo img {
+        height: 20px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    header>div img {
-        height: 1rem;
+    header nav img {
+        height: 50px;
+    }
+    header .sony_logo img {
+        height: 25px;
     }
 }
 
-img.chevron {
+header img.chevron {
     width: 0.5rem;
     margin-left: 3px;
 }
@@ -28,9 +54,25 @@ body {
 }
 
 header li.icon {
-    line-height: 40px;
-    height: 40px;
     font-size: 1.5rem;
+}
+
+
+section.jumbo {
+    position:relative;
+}
+
+section.jumbo img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    object-fit: fill;
+}
+
+.debug section.one{
+    min-height: 400px;
 }
 /************************* colors ******************************* */
 
