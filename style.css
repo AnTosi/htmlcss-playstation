@@ -15,9 +15,28 @@ header>div img {
 }
 
 img.chevron {
-    width: 0.5rem
+    width: 0.5rem;
+    margin-left: 3px;
 }
 
 body {
     font-family: Arial, sans-serif;
+}
+
+.btn_rounder {
+    border-radius: 1.5rem;
+}
+
+header li.icon {
+    width: 2rem;
+    font-size: 1rem;
+}
+/************************* colors ******************************* */
+
+.bg_darkgrey {
+    background-color: #363636;
+}
+
+.bord_grey {
+    border-color: #363636;
 }
