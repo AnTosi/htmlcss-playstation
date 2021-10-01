@@ -17,22 +17,47 @@ section.one {
     margin-top: 100px;
 }
 
+.height {
+    height: 570px;
+}
 
-
-
+section.one img {
+    height: 45px;
+}
 
 /********** /section1 ***********/
 @media screen and (min-width: 576px) {
-
+    .height {
+        height: 620px;
+    }
+    section.one img {
+        height: 55px;
+    }
 }  
 
 
 @media screen and (min-width: 768px) {
+    .height {
+        height: 600px;
+    }
 
+    section.one img {
+        height: 70px;
+    }
 }    
 
 @media screen and (min-width: 1200px) {
+    .height {
+        height: 590px;
+    }
 
+    section.one img {
+        height: 40px;
+    }
+    
+    section.one p {
+        width: 380px;
+    }
 }   
 
 header img.chevron {
@@ -68,4 +93,8 @@ section.jumbo {
 
 .bord_grey {
     border-color: #363636;
+}
+
+.bg_crimson {
+    background-color: #CD3D0F;
 }
