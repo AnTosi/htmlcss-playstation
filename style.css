@@ -28,8 +28,9 @@ body {
 }
 
 header li.icon {
-    width: 2rem;
-    font-size: 1rem;
+    line-height: 40px;
+    height: 40px;
+    font-size: 1.5rem;
 }
 /************************* colors ******************************* */
 
