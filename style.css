@@ -317,12 +317,24 @@ li[aria-expanded="true"] {
 
 .dropdown-menu.show {
     display: flex;
-    width: 102vw;
-    left: -70px;
-    overflow: hidden;
-    justify-content: center
+    width: 100%;
+    justify-content: center;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+
+}
+
+.dropdown {
+    position: static;
+}
+
+li img.ps_icon {
+    height:100px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .dropdown-menu[data-bs-popper] {
-    top:150%
+    margin-top: 0;
 }
