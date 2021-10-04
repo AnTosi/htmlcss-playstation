@@ -121,7 +121,7 @@ section.three img {
 section.three .hidden{
     text-align: center;
 }
-section.three i {
+section.three i , section.five .card i {
     font-size: 8px;
     vertical-align: super;
 }
@@ -177,6 +177,19 @@ section.four img{
     }
 }
 /********** /section4 ***********/
+section.five .card {
+    border-style:none;
+}
+section.five .card img {
+    border-radius: 1rem;
+}
+/********** /section5 ***********/
+
+section.six h1 i{
+    font-size: 12px;
+    vertical-align: super;
+}
+/********** /section6 ***********/
 /************************* colors ******************************* */
 
 .bg_darkgrey {
@@ -199,6 +212,9 @@ section.four img{
     background-color: #2D64E6;
 }
 
+.bg_dark {
+    background-color: #1f1f1f;
+}
 /* utilities */
 .col-20 {
     width: 20%;
