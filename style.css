@@ -91,7 +91,8 @@ section.two .thumb.active img {
     }
 }   
 
-header img.chevron {
+header img.chevron,
+header img.chevron_op {
     width: 0.5rem;
     margin-left: 3px;
 }
@@ -401,4 +402,21 @@ button.btn_rounder span:hover {
     line-height: 100%;
     vertical-align: middle;
     margin-left: 1rem;
+}
+
+#navbarDropdown:focus {
+    color: #0D79D0 !important;
+}
+
+#navbarDropdown:focus .chevron {
+    display: none;
+}
+
+.chevron_op {
+    display: none;
+    transform: rotate(180deg);
+}
+
+#navbarDropdown:focus .chevron_op {
+    display: inline-block;
 }
