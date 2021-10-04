@@ -391,3 +391,14 @@ button.btn_rounder span:hover {
 .cp:hover {
     cursor: pointer;
 }
+
+.list_style {
+    list-style-type: disc;
+}
+
+.navbar li i {
+    font-size: 0.3rem;
+    line-height: 100%;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
