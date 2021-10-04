@@ -202,11 +202,13 @@ section.seven .hidden {
     }
 }
 
-section.seven .left img {
+section.seven .left img,
+section.nine .left img {
     max-width: 60%;
 }
 
-section.seven .right img {
+section.seven .right img,
+section.nine .right img {
     width: 100%;
 }
 /********** /section7 ***********/
@@ -242,6 +244,10 @@ section.seven .right img {
 
 .bg_lightgrey {
     background-color: #D9DADC;
+}
+
+.bg_deepblue {
+    background-color: #161C3B;
 }
 /* utilities */
 .col-20 {
