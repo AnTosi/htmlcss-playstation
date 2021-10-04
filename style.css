@@ -330,7 +330,7 @@ li[aria-expanded="true"] {
 }
 
 li img.ps_icon {
-    height:100px;
+    height:70px;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -338,3 +338,4 @@ li img.ps_icon {
 .dropdown-menu[data-bs-popper] {
     margin-top: 0;
 }
+
