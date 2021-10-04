@@ -11,6 +11,10 @@ header .sony_logo img {
 header nav img {
     height: 40px;
 }
+
+header nav li img {
+    height: 24px;
+}
 /********** /siteheader ***********/
 
 section.one {
@@ -90,6 +94,7 @@ body {
 
 .btn_rounder {
     border-radius: 1.5rem;
+    border-style: none;
 }
 
 header li.icon {
@@ -104,6 +109,15 @@ section.jumbo {
 .debug section.one{
     min-height: 400px;
 }
+
+section.three div.img_cont {
+    height: 100%;
+}
+
+section.three div.img_cont img {
+    width: 100%;
+}
+
 /************************* colors ******************************* */
 
 .bg_darkgrey {
@@ -116,4 +130,12 @@ section.jumbo {
 
 .bg_crimson {
     background-color: #CD3D0F;
+}
+
+.text_blue {
+    color: #0D79D0
+}
+
+.bg_blue {
+    background-color: #2D64E6;
 }
