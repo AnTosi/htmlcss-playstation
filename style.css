@@ -311,4 +311,18 @@ footer .sie {
 
 /****** bonus ***********/
 
+li[aria-expanded="true"] {
+    color:#0D79D0;
+}
 
+.dropdown-menu.show {
+    display: flex;
+    width: 102vw;
+    left: -70px;
+    overflow: hidden;
+    justify-content: center
+}
+
+.dropdown-menu[data-bs-popper] {
+    top:150%
+}
