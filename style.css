@@ -372,3 +372,18 @@ section.four .button_cont:hover
 button.shadow_:hover {
     box-shadow: 2px 2px 2px #eceef1c9;
 }
+
+button.btn_rounder span {
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    
+}
+
+button.inner_border {
+    padding:1px;
+    box-sizing: content-box;
+}
+
+button.btn_rounder span:hover {
+    border: 2px solid black;
+    padding: 0.40rem 0.65rem 0.40rem 0.65rem;
+}
