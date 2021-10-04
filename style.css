@@ -191,6 +191,25 @@ section.six h1 i{
     vertical-align: super;
 }
 /********** /section6 ***********/
+
+section.seven .hidden {
+    display:none;
+}
+
+@media screen and (min-width:768px) {
+    section.seven .hidden {
+        display: block;    
+    }
+}
+
+section.seven .left img {
+    max-width: 60%;
+}
+
+section.seven .right img {
+    width: 100%;
+}
+/********** /section7 ***********/
 /************************* colors ******************************* */
 
 .bg_darkgrey {
@@ -215,6 +234,14 @@ section.six h1 i{
 
 .bg_dark {
     background-color: #1f1f1f;
+}
+
+.bg_grey {
+    background-color: #BEBCBB;
+}
+
+.bg_lightgrey {
+    background-color: #D9DADC;
 }
 /* utilities */
 .col-20 {
