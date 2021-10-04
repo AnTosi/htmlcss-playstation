@@ -1,7 +1,7 @@
 header {
-    position: fixed;
-    width: 100%;
+    position: sticky;
     top: 0;
+    left: 0;
 }
 
 header .sony_logo img {
@@ -17,9 +17,7 @@ header nav li img {
 }
 /********** /siteheader ***********/
 
-section.one {
-    margin-top: 100px;
-}
+
 
 .height {
     height: 570px;
@@ -104,6 +102,8 @@ header li.icon {
 section.jumbo {
     background-image: url(./img/jumbo-bg.png);
     background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .debug section.one{
@@ -114,10 +114,69 @@ section.three div.img_cont {
     height: 100%;
 }
 
-section.three div.img_cont img {
+section.three img {
     width: 100%;
 }
 
+section.three .hidden{
+    text-align: center;
+}
+section.three i {
+    font-size: 8px;
+    vertical-align: super;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .hidden {
+        display: block;
+    }
+    
+}
+
+.thumb_cont {
+    opacity: 0.6;
+}
+
+.thumb_cont:hover {
+    border-bottom: 2px solid #2D64E6;;
+    opacity: 1;
+}
+/********** /section3 ***********/
+
+section.four {
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+section.four img{
+    height: 200px;
+}
+@media screen and (min-width: 576px) {
+    section.four img {
+        height: 230px;
+    }
+}  
+
+
+@media screen and (min-width: 768px) {
+    section.four img {
+        height: 320px;
+    }
+}    
+
+@media screen and (min-width: 1200px) {
+    section.four img {
+        height: 180px;
+    }
+    
+    section.four p {
+        width: 380px;
+    }
+}
+/********** /section4 ***********/
 /************************* colors ******************************* */
 
 .bg_darkgrey {
@@ -138,4 +197,19 @@ section.three div.img_cont img {
 
 .bg_blue {
     background-color: #2D64E6;
+}
+
+/* utilities */
+.col-20 {
+    width: 20%;
+}
+
+@media screen and (min-width: 768px) {
+.col-md-20 {
+    width: 20%;
+}
+@media screen and (min-width: 1200px) {
+    .col-xl-20 {
+    width: 20%;
+}
 }
