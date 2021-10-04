@@ -387,3 +387,7 @@ button.btn_rounder span:hover {
     border: 2px solid black;
     padding: 0.40rem 0.65rem 0.40rem 0.65rem;
 }
+
+.cp:hover {
+    cursor: pointer;
+}
