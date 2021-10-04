@@ -114,7 +114,8 @@ section.three div.img_cont {
     height: 100%;
 }
 
-section.three img {
+section.three img,
+section.six img {
     width: 100%;
 }
 
