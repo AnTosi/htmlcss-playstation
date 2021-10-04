@@ -162,11 +162,12 @@ section.three i , section.five .card i {
     opacity: 1;
 }
 
-section.three .button_cont {
+.button_cont  {
     padding:3px;
 }
 
 section.three .button_cont:hover {
+    padding:2px;
     border:1px solid #2D64E6;
 }
 /********** /section3 ***********/
@@ -361,3 +362,9 @@ li img.ps_icon {
     margin-top: 0;
 }
 
+section.one .button_cont:hover,
+section.four .button_cont:hover
+ {
+    padding:2px;
+    border:1px solid #CD3D0F;
+}
