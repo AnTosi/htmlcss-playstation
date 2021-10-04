@@ -368,3 +368,7 @@ section.four .button_cont:hover
     padding:2px;
     border:1px solid #CD3D0F;
 }
+
+button.shadow_:hover {
+    box-shadow: 2px 2px 2px #eceef1c9;
+}
