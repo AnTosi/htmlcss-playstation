@@ -208,10 +208,16 @@ section.nine .left img {
 }
 
 section.seven .right img,
-section.nine .right img {
+section.eight img,
+section.nine .right img,
+section.ten img {
     width: 100%;
 }
 /********** /section7 ***********/
+
+section.ten div[class^="container"] {
+    max-width: 720px;
+}
 /************************* colors ******************************* */
 
 .bg_darkgrey {
@@ -248,6 +254,10 @@ section.nine .right img {
 
 .bg_deepblue {
     background-color: #161C3B;
+}
+
+.bg_lightergrey {
+    background-color: #f5f5f5;
 }
 /* utilities */
 .col-20 {
