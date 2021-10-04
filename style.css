@@ -222,7 +222,30 @@ section.ten div[class^="container"] {
 /********** /section10 ***********/
 
 footer {
+    color: white;
     background-color: #00439C;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li:hover {
+    cursor: pointer;
+}
+
+footer li {
+    margin-bottom: 0.75rem;
+}
+
+footer .language img {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.75rem;
+}
+
+footer .sie {
+    width: 140px;
 }
 /********** /footer***********/
 /************************* colors ******************************* */
@@ -282,9 +305,4 @@ footer {
     .col-xl-20 {
     width: 20%;
 }
-}
-
-
-.debug {
-    height:400px;
 }
