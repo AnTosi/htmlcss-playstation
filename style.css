@@ -163,10 +163,10 @@ section.three i , section.five .card i {
 }
 
 .button_cont  {
-    padding:3px;
+    padding:2.8px;
 }
 
-section.three .button_cont:hover {
+.button_cont:hover {
     padding:2px;
     border:1px solid #2D64E6;
 }
